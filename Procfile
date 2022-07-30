@@ -1,1 +1,1 @@
-worker: npm i -g pm2 && pm2 start index.js && pm2 monit
+worker: node . --db 'mongodb+srv://Ezinter:Faisalpro123.@cluster0.r98nr.mongodb.net/?retryWrites=true&w=majority'
